@@ -14,3 +14,8 @@ or
 ```bash
 update_aliases
 ```
+
+# Git aliases
+```bash
+curl -s https://raw.githubusercontent.com/writeonly/cli/master/git_config.sh | bash
+```
