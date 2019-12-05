@@ -15,4 +15,4 @@ alias cwd='cd `pwd`'
 
 alias ll='ls -l'
 alias la='ll -a'
-alias mvne='mvn -e'
+alias mvn='mvn -e'
