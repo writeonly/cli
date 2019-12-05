@@ -1,7 +1,3 @@
-```bash
-/bin/cp /etc/skel/.bashrc ~/
-```
-
 # Aliases
 
 ## Install aliases
