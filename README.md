@@ -26,3 +26,5 @@ curl -s https://raw.githubusercontent.com/writeonly/cli/master/git_config.sh | b
 
 # See also
 [Git, kurwa!](https://github.com/jakubnabrdalik/gitkurwa)
+[The Fuck](https://github.com/nvbn/thefuck)
+[Fish Shell](https://github.com/fish-shell/fish-shell/)
