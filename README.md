@@ -23,3 +23,6 @@ update_aliases
 ```bash
 curl -s https://raw.githubusercontent.com/writeonly/cli/master/git_config.sh | bash
 ```
+
+# See also
+[Git, kurwa!](https://github.com/jakubnabrdalik/gitkurwa)
