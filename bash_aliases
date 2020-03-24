@@ -18,6 +18,8 @@ alias la='ll -a'
 alias mvn='mvn -e'
 
 alias g='git'
+alias guser='git config user.name "Kamil Adam" && git config user.email kamil.adam.zabinski@gmail.com'
+
 alias d='docker'
 
 alias j8="export JAVA_HOME=`/usr/libexec/java_home -v 1.8`; java -version"
