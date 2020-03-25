@@ -1,4 +1,7 @@
 #!/usr/bin/env bash
+
+git config --global push.default current
+
 git config --global alias.cl 'clone'
 git config --global alias.clr 'cl --recurse-submodules'
 git config --global alias.update 'submodule update --init --recursive'
@@ -23,3 +26,4 @@ git config --global alias.frfinish 'flow release finish'
 # git flow hotfix
 git config --global alias.fhstart 'flow hotfix start'
 git config --global alias.fhfinish 'flow hotfix finish'
+
