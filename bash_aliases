@@ -21,6 +21,7 @@ alias g='git'
 alias guser='git config user.name "Kamil Adam" && git config user.email kamil.adam.zabinski@gmail.com'
 
 alias d='docker'
+alias docker_rmi_all='docker kill $(docker ps -q); docker rm $(docker ps -a -q); docker rmi $(docker images -q)'
 
 alias j8="export JAVA_HOME=`/usr/libexec/java_home -v 1.8`; java -version"
 alias j9="export JAVA_HOME=`/usr/libexec/java_home -v 9`; java -version"
