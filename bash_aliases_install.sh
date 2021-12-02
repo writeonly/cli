@@ -2,7 +2,7 @@
 cd ~
 rm -rf writeonly-cli
 git clone https://github.com/writeonly/cli.git writeonly-cli
-cat <<EOT >> ~/.bashrc
+cat <<EOT >> ~/.profile
 
 if [ -f ~/writeonly-cli/bash_aliases ]; then
     . ~/writeonly-cli/bash_aliases
