@@ -33,3 +33,7 @@ alias j11="export JAVA_HOME=`/usr/libexec/java_home -v 11`; java -version"
 alias j12="export JAVA_HOME=`/usr/libexec/java_home -v 12`; java -version"
 alias j13="export JAVA_HOME=`/usr/libexec/java_home -v 13`; java -version"
 alias j14="export JAVA_HOME=`/usr/libexec/java_home -v 14`; java -version"
+
+
+export NVM_DIR="$([ -z "${XDG_CONFIG_HOME-}" ] && printf %s "${HOME}/.nvm" || printf %s "${XDG_CONFIG_HOME}/nvm")"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh" # This loads nvm
