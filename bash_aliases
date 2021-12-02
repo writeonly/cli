@@ -1,5 +1,8 @@
-alias vish='vim ~/.bashrc'
-alias srcsh='source ~/.bashrc'
+# alias vish='vim ~/.bashrc'
+# alias srcsh='source ~/.bashrc'
+
+alias vish='vim ~/.profile'
+alias srcsh='source ~/.profile'
 
 alias update_aliases='curl -s https://raw.githubusercontent.com/writeonly/cli/master/bash_aliases_update.sh | bash'
 
